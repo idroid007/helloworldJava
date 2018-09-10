@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+body{
+  font-family: 'News Cycle', sans-serif;
+  background: #312d2d;
+  color:white;
+}
+.header{
+  border-bottom:0px solid red;
+  margin-bottom: 0;
+  font-family: fantasy;
+}
+#navbar{
+  margin:0;
+  font-size: 16px;
+  color:white;
+}
+#navbar li a:link{
+  color: white;
+}
+#main{
+  color:white;
+  background:#1d1a1a;
+  position: relative;
+}
+#brand{
+  font-family: 'Righteous', cursive;
+  color:white;
+}
+#brand span{
+  animation: pulse 1s infinite alternate;
+}
+#nav_li li a:hover{
+ 
+  color:red;
+}
+#nohax{
+  width: 100%;
+  margin: 0;
+  position: relative;
+  height:500px;
+  border-top:6px ridge #1d1a1a;
+}
+#nohax div{
+  margin:0 ;
+  text-align: center;
+  font-size: 8em;
+  color:white;
+ line-height:400px;
+ color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#8a2607,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+#nohax h4{
+  font-size:50px;
+  margin-top:-140px; 
+  text-align: center;
+}
+#main{
+  padding: 50px;
+}
+#footer{
+  text-align: center;
+  border-top:6px ridge #1d1a1a;
+}
+#copyright{
+  word-spacing: 5px;
+  font-size: 1.5em;
+
+}
+#copyright h1{
+  color:red;
+}
+
+/* animations */
+@keyframes pulse{
+  from{ color:white;}
+  to{
+    color:red;
+  }
+}
