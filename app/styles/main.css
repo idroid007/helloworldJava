@@ -76,6 +76,16 @@ body{
 #copyright h1{
   color:red;
 }
+.faqs h2{
+margin-top:2em;
+color:#f35626;
+}
+.faqs p{
+  margin-top:1em;
+  padding-left: 1em;
+  font-size: 1.1em;
+  
+}
 
 /* animations */
 @keyframes pulse{

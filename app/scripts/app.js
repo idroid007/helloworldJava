@@ -48,6 +48,11 @@ angular
         controller: 'CopyrightsCtrl',
         controllerAs: 'copyrights'
       })
+      .when('/faq', {
+        templateUrl: 'views/faq.html',
+        controller: 'FaqCtrl',
+        controllerAs: 'FAQ'
+      })
       .otherwise({
         redirectTo: '/'
       });
