@@ -8,10 +8,25 @@ body{
   background: #312d2d;
   color:white;
 }
+/* main*/
+.report{
+  background-color:rgb(192,192,192,0.1);
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+.report p span{
+color:red;
+margin: 0 4px 0 4px;
+}
+.report 
+/*main close */
 .header{
   border-bottom:0px solid red;
   margin-bottom: 0;
   font-family: fantasy;
+}
+.about h1{
+  color:#f35626;
 }
 #navbar{
   margin:0;
@@ -22,6 +37,7 @@ body{
   color: white;
 }
 #main{
+  padding: 50px;
   color:white;
   background:#1d1a1a;
   position: relative;
@@ -61,9 +77,7 @@ body{
   margin-top:-140px; 
   text-align: center;
 }
-#main{
-  padding: 50px;
-}
+
 #footer{
   text-align: center;
   border-top:6px ridge #1d1a1a;
@@ -75,10 +89,15 @@ body{
 }
 #copyright h1{
   color:red;
+  
 }
 .faqs h2{
 margin-top:2em;
 color:#f35626;
+}
+.faqs h1{
+  margin-top:1em;
+ 
 }
 .faqs p{
   margin-top:1em;
